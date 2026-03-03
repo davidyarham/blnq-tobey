@@ -1,2 +1,3 @@
-# blnq-tobey
-Created with Blnq Studio
+# Newspaper
+
+Created with [Blnq Studio](https://blnq.studio/e/qgNZZF9)

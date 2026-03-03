@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="newspaper">
+	<header class="newspaper__header">
+		<div class="newspaper__header-top">
+			<span class="newspaper__edition">Vol. CXLVIII ... No. 51,432</span>
+			<span class="newspaper__weather">Partly Cloudy, 72°F</span>
+		</div>
+		<div class="newspaper__rule newspaper__rule--double"></div>
+		<h1 class="newspaper__masthead">The Daily Chronicle</h1>
+		<div class="newspaper__rule newspaper__rule--double"></div>
+		<div class="newspaper__header-bottom">
+			<span class="newspaper__motto">"All the News Worth Reading"</span>
+			<span class="newspaper__date">WEDNESDAY, JUNE 18, 2025</span>
+			<span class="newspaper__price">LATE EDITION — $3.00</span>
+		</div>
+		<div class="newspaper__rule newspaper__rule--thick"></div>
+	</header>
+
+	<main class="newspaper__body">
+		<!-- HERO IMAGE -->
+		<figure class="newspaper__hero">
+			<img src="https://images.unsplash.com/photo-1551244072-5d12893278ab?w=1100&h=450&fit=crop&q=80" alt="Deep sea hydrothermal vent" class="newspaper__hero-image">
+			<figcaption class="newspaper__hero-caption">The deep-sea hydrothermal vent field where
+				<em>Ignis medusae</em> was first observed by the crew of the <em>Poseidon's Lantern</em>, approximately
+				460 nautical miles southwest of Hawaii. — <span>Dr. Kenji Watanabe / University of Hawaii</span>
+			</figcaption>
+		</figure>
+
+		<article class="newspaper__lead">
+			<h2 class="newspaper__headline">Scientists Discover New Species of David Creature Living Near Volcanic
+				Vents in the Pacific</h2>
+			<p class="newspaper__subheadline">The translucent organism, dubbed <em>"Ignis medusae,"</em> thrives in
+				temperatures exceeding 400°F and could reshape our understanding of life's limits on Earth and beyond.
+			</p>
+			<div class="newspaper__rule newspaper__rule--thin"></div>
+			<div class="newspaper__byline">
+				<span class="newspaper__author">By ELIZABETH HARGROVE</span>
+				<span class="newspaper__location">HONOLULU — </span>
+			</div>
+
+			<div class="newspaper__columns newspaper__columns--three">
+				<p><span class="newspaper__dropcap">A</span> team of marine biologists aboard the research vessel
+					<em>Poseidon's Lantern</em> has announced the discovery of a previously unknown organism living in
+					one of the most inhospitable environments on Earth — the superheated waters surrounding hydrothermal
+					vents nearly three miles beneath the surface of the Pacific Ocean.</p>
+
+				<p>The creature, a jellyfish-like organism roughly the size of a human hand, was first observed during a
+					routine dive using the remotely operated submersible <em>Nereid IV</em> on May 23rd, approximately
+					460 nautical miles southwest of Hawaii.</p>
+
+				<figure class="newspaper__inline-figure newspaper__inline-figure--right">
+					<img src="https://images.unsplash.com/photo-1509477887414-681937645173?w=400&h=500&fit=crop&q=80" alt="Jellyfish in deep water" class="newspaper__inline-image">
+					<figcaption class="newspaper__inline-caption">A deep-sea jellyfish photographed at depth. The newly
+						discovered <em>Ignis medusae</em> shares a similar translucent body structure. —
+						<span>NOAA</span></figcaption>
+				</figure>
+
+				<p>"We almost missed it entirely," said Dr. Kenji Watanabe, the expedition's chief biologist, during a
+					press conference at the University of Hawaii's oceanography department on Tuesday. "The cameras
+					picked up a faint luminescence near the vent chimney, and when we adjusted the angle, there it was —
+					pulsing, translucent, and very much alive in water that would dissolve most organic tissue."</p>
+
+				<p>The organism has been provisionally named <em>Ignis medusae</em> — Latin for "fire jellyfish" —
+					though researchers caution that it may not belong to any known phylum. Its cellular structure,
+					according to preliminary analysis, bears little resemblance to any documented marine invertebrate.
+				</p>
+
+				<figure class="newspaper__figure">
+					<div class="newspaper__figure-grid">
+						<img src="https://images.unsplash.com/photo-1530053969600-caed2596d242?w=550&h=350&fit=crop&q=80" alt="Research vessel at sea" class="newspaper__image">
+						<img src="https://images.unsplash.com/photo-1597511201148-f5c1c tried-976f-30c5e0e3f29a?w=550&h=350&fit=crop&q=80" alt="Underwater ROV" class="newspaper__image" onerror="this.src='https://images.unsplash.com/photo-1504113888839-1c8eb50233d3?w=550&h=350&fit=crop&q=80'">
+					</div>
+					<figcaption class="newspaper__caption"><strong>Left:</strong> The research vessel
+						<em>Poseidon's Lantern</em> at sea during the Pacific expedition. <strong>Right:</strong> The
+						remotely operated submersible used to explore the vent field at depth. —
+						<span>University of Hawaii Marine Sciences</span></figcaption>
+				</figure>
+
+				<aside class="newspaper__pullquote">
+					<blockquote>"If this organism does what we think it does, we may need to rewrite the first chapter
+						of every biology textbook in print."</blockquote>
+					<cite>— Dr. Kenji Watanabe, Chief Biologist</cite>
+				</aside>
+
+				<p>What makes the discovery particularly remarkable, scientists say, is the creature's apparent ability
+					to metabolize sulfur compounds and mineral deposits expelled by the vents — a process that, if
+					confirmed, would represent an entirely novel form of chemosynthesis.</p>
+
+				<p>"We've known about chemosynthetic bacteria for decades," explained Dr. Sofia Engström, a biochemist
+					at the Stockholm Institute of Marine Research who was not involved in the expedition but reviewed
+					its initial findings. "But a multicellular organism of this complexity operating on a similar
+					metabolic pathway? That would be extraordinary. That would be, frankly, paradigm-altering."</p>
+
+				<h3 class="newspaper__subhead">Implications for Extraterrestrial Life</h3>
+
+				<figure class="newspaper__inline-figure newspaper__inline-figure--left">
+					<img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=320&fit=crop&q=80" alt="Jupiter and Europa" class="newspaper__inline-image">
+					<figcaption class="newspaper__inline-caption">Jupiter's moon Europa, believed to harbor a subsurface
+						ocean with hydrothermal vents. — <span>NASA/JPL</span></figcaption>
+				</figure>
+
+				<p>The discovery has already drawn the attention of NASA and the European Space Agency, both of which
+					have long hypothesized that life could exist in the subsurface oceans of Jupiter's moon Europa or
+					Saturn's moon Enceladus — environments thought to contain hydrothermal activity similar to Earth's
+					deep-sea vents.</p>
+
+				<p>Dr. Ramon Gutierrez, a senior astrobiologist at NASA's Jet Propulsion Laboratory, called the findings
+					"immensely significant" in a statement released Tuesday evening.</p>
+
+				<p>"Every time we expand the known boundaries of where life can survive on our own planet, it
+					strengthens the case for searching more aggressively beyond it," Dr. Gutierrez wrote.
+					"<em>Ignis medusae</em>, if the early data holds, is exactly the kind of analog we've been looking
+					for."</p>
+
+				<p>The research team plans to return to the site in September with more advanced collection equipment,
+					including a specially designed pressure chamber that would allow specimens to be brought to the
+					surface alive for the first time. Previous attempts to retrieve deep-vent organisms have been
+					hampered by the extreme pressure differentials involved — the vents sit at depths where pressure
+					exceeds 400 atmospheres.</p>
+
+				<figure class="newspaper__figure">
+					<img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=900&h=400&fit=crop&gravity=center&q=80" alt="Scientists in a laboratory" class="newspaper__image" onerror="this.src='https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=900&h=400&fit=crop&q=80'">
+					<figcaption class="newspaper__caption">Members of the research team analyzing preliminary tissue
+						samples at the University of Hawaii's marine biology laboratory on Monday. —
+						<span>Associated Press</span></figcaption>
+				</figure>
+
+				<h3 class="newspaper__subhead">A Contested Discovery</h3>
+
+				<p>Not all members of the scientific community have greeted the announcement with enthusiasm. Dr.
+					Phillip Crane, a professor of evolutionary biology at the University of Cambridge, urged caution in
+					an interview conducted by telephone.</p>
+
+				<figure class="newspaper__inline-figure newspaper__inline-figure--right">
+					<img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=400&h=300&fit=crop&q=80" alt="Microscope view" class="newspaper__inline-image">
+					<figcaption class="newspaper__inline-caption">Cellular analysis of the organism's tissue is ongoing
+						at multiple laboratories. — <span>Reuters</span></figcaption>
+				</figure>
+
+				<p>"The footage is compelling, I'll grant that," Dr. Crane said. "But we've been here before.
+					Extraordinary claims require extraordinary evidence, and what we have at present amounts to some
+					very interesting video and a small number of tissue samples that have not yet been independently
+					verified."</p>
+
+				<p>Dr. Watanabe acknowledged the skepticism but expressed confidence that subsequent expeditions would
+					vindicate the team's conclusions. "Science demands rigor, and we welcome the scrutiny," he said.
+					"But I've been studying these vents for twenty-two years, and I have never seen anything like what
+					we saw that night. Not even close."</p>
+
+				<p>The findings are expected to be published in the journal <em>Nature</em> within the coming weeks,
+					pending peer review. A documentary crew that accompanied the expedition is reportedly in
+					negotiations with several streaming platforms for distribution rights.</p>
+
+				<p class="newspaper__continuation">Continued on Page A14, Column 3</p>
+			</div>
+		</article>
+
+		<div class="newspaper__rule newspaper__rule--thick"></div>
+
+		<div class="newspaper__bottom-stories">
+			<article class="newspaper__sidebar-story">
+				<figure class="newspaper__sidebar-figure">
+					<img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=400&h=250&fit=crop&q=80" alt="U.S. Capitol building" class="newspaper__sidebar-image">
+				</figure>
+				<h3 class="newspaper__sidebar-headline">Senate Passes Landmark Infrastructure Bill After Months of
+					Debate</h3>
+				<p class="newspaper__sidebar-byline">By JAMES WHITFIELD</p>
+				<p>WASHINGTON — The United States Senate voted 67-33 on Tuesday to approve a sweeping $1.2 trillion
+					infrastructure package that includes provisions for bridge repair, broadband expansion, and clean
+					energy development across all fifty states…</p>
+				<p class="newspaper__continuation">Continued on Page A6</p>
+			</article>
+			<article class="newspaper__sidebar-story">
+				<figure class="newspaper__sidebar-figure">
+					<img src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=400&h=250&fit=crop&q=80" alt="Tall timber trees" class="newspaper__sidebar-image">
+				</figure>
+				<h3 class="newspaper__sidebar-headline">Renowned Architect Unveils Plans for World's First Timber
+					Skyscraper in Oslo</h3>
+				<p class="newspaper__sidebar-byline">By ANNA KRISTIANSEN</p>
+				<p>OSLO — The Norwegian firm Voll Arkitekter presented designs on Monday for a 40-story residential
+					tower constructed almost entirely from cross-laminated timber, a project that would surpass all
+					existing records for wooden structures…</p>
+				<p class="newspaper__continuation">Continued on Page C1</p>
+			</article>
+			<article class="newspaper__sidebar-story">
+				<figure class="newspaper__sidebar-figure">
+					<img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=400&h=250&fit=crop&q=80" alt="Coffee beans" class="newspaper__sidebar-image">
+				</figure>
+				<h3 class="newspaper__sidebar-headline">Global Coffee Prices Surge to 12-Year High Amid Brazilian
+					Drought</h3>
+				<p class="newspaper__sidebar-byline">By MARCUS DELGADO</p>
+				<p>SÃO PAULO — Arabica coffee futures climbed to their highest level since 2013 this week as severe
+					drought conditions across Brazil's Minas Gerais region continue to threaten the country's harvest
+					output…</p>
+				<p class="newspaper__continuation">Continued on Page B4</p>
+			</article>
+		</div>
+	</main>
+
+	<footer class="newspaper__footer">
+		<div class="newspaper__rule newspaper__rule--double"></div>
+		<p>Copyright © 2025 The Daily Chronicle Company. All rights reserved.</p>
+	</footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
